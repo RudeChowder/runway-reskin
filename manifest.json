@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Runway Reskin",
+  "version": "1.0",
+
+  "description": "Makes Runway look nicer",
+
+  "icons": {
+    "48": "./runway.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://nitro.powerhrg.com/runway*"],
+      "css": ["reskin.css"]
+    }
+  ]
+}
