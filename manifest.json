@@ -12,7 +12,8 @@
   "content_scripts": [
     {
       "matches": ["https://nitro.powerhrg.com/runway*"],
-      "css": ["reskin.css"]
+      "css": ["reskin.css"],
+      "js": ["reskin.js"]
     }
   ]
 }
