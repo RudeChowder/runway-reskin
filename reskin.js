@@ -20,7 +20,7 @@ cards.forEach( card => {
   if (blocked(card)) {
     card.style.backgroundColor = "#fae7d2"
   } else if (assigned(card) && committed(card)) {
-    card.style.background = "linear-gradient(-45deg, #CCE7FF 0%, #CCE7FF 50%, #d4ffd9 50%, #d4ffd9 100%)"
+    card.style.background = "linear-gradient(-45deg, #d4ffd9 0%, #d4ffd9 50%, #CCE7FF 50%, #CCE7FF 100%)"
   } else if (assigned(card)) {
     card.style.backgroundColor = "#d4ffd9"
   } else if (committed(card)) {
